@@ -198,6 +198,7 @@ h2 {
 .paper .authors,
 .paper .venue {
   color: #6c7866;
+  font-weight: bold;
 }
 
 .main-card {
