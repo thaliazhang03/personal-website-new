@@ -195,11 +195,11 @@ h2 {
   color: #465243;
 }
 
-.paper .authors,
-.paper .venue {
+.paper .authors, .venue {
   color: #6c7866;
-  font-weight: bold;
+  font-weight: 500;
 }
+
 
 .main-card {
   background: #fffdfc;
