@@ -20,7 +20,6 @@ h1 {
   padding: 10px 0;
 }
 
-
 .site-header nav {
   display: flex;
   justify-content: space-between;
@@ -30,9 +29,9 @@ h1 {
 
 .nav-left {
   display: flex;
-  flex-direction: column;   
-  align-items: flex-start;  
-  gap: 4px;                
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .name {
@@ -120,12 +119,6 @@ nav a:hover {
   color: #c67a8b;
 }
 
-.name {
-  font-size: 19px;
-  font-weight: 600;
-  color: #465243;
-}
-
 .icon-links {
   display: flex;
   gap: 8px;
@@ -133,7 +126,7 @@ nav a:hover {
 }
 
 .icon-links a {
-  font-size: 14px;   
+  font-size: 14px;
   color: #6c7866;
   transition: 0.2s ease;
 }
@@ -186,21 +179,6 @@ h2 {
   color: #55644f;
 }
 
-.paper {
-  margin-bottom: 15px;
-}
-
-.title {
-  font-size: 17px;
-  color: #465243;
-}
-
-.paper .authors, .venue {
-  color: #6c7866;
-  font-weight: 500;
-}
-
-
 .main-card {
   background: #fffdfc;
   border: 1.5px solid #f1d7df;
@@ -241,5 +219,51 @@ h2 {
 }
 
 .section-title {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.pub-category {
+  margin-top: 28px;
+}
+
+.pub-category:first-of-type {
+  margin-top: 10px;
+}
+
+.pub-subtitle {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6f8268;
+}
+
+.paper {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  border-radius: 14px;
+}
+
+.paper .title {
+  margin: 0 0 5px;
+  font-size: 16.5px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #3f4b3c;
+}
+
+.paper .authors {
+  margin: 0 0 3px;
+  color: #64725f;
+  font-size: 15.5px;
+  font-weight: 500;
+}
+
+.paper .venue {
+  margin: 0;
+  color: #7a8b73;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
 }
